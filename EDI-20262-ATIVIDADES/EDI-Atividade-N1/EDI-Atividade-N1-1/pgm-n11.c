@@ -12,9 +12,9 @@
 #define TAMANHO_TURMA 5 // define a quantidade de alunos na turma
 
 void exibirCabecalho(void) { //cabeçalho: nome da institição e titulo do programa
-	printf("================================\n");
-	printf("  SISTEMA DE NOTAS - TURMA ADS  \n");
-	printf("================================\n");
+	printf("=================================\n");
+	printf(" SISTEMA DE NOTAS - TURMA ADS    \n");
+	printf("=================================\n");
 }
 
 float calcularMedia(float vetor[], int tamanho) { // Para deixar o codigo mais eficiente, quando declaramos um vetor apenas com "[]" ele não copia o valor inteiro, ele acessa o endereço de memoria do primeiro item do vetor,funcionando como passagem por referencia
